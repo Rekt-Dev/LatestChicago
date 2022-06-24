@@ -1,2 +1,2 @@
-# LatestChicago
+# ChicagoArtInst
 Created with CodeSandbox

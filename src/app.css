@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
+.centered {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  
+}
+
+.divWidth {
+  
+  display: flex;
+  align-items: 
+  flex-direction:row;
+  width:100%;
+  height:80%;
+  flex: 1;
+  top: 60;
+  flexDirection: "row",
+  flexWrap: "wrap",
+  marginBottom: 1
+}
+
+
+.liFont {
+
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  font-size: 350%;
+  font-weight: x-large;
+  
+}
