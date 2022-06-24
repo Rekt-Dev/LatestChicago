@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
+    "bootstrap": "5.1.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-router-dom": "6.3.0",

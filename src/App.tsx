@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import { Link } from "react-router-dom";
 import { Card } from "./components/Card";
 import { json } from "./services/json";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 export default function App() {
   return (
     <div>
