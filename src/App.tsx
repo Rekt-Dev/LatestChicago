@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Card } from "./components/Card";
 import { json } from "./services/json";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { artworkRetriever } from "./services/artworkRetriever";
 //import { MDBRipple } from "mdb-react-ui-kit";
 
 export default function App() {
