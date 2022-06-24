@@ -22,7 +22,9 @@ export function Card(props: any) {
       </a>
       <ul>
         {}
-        <li onClick={GoToArtist}>{props.artistName || "artist name"}</li>
+        <a href="./GoToArtist">
+          <li onClick={GoToArtist}>{props.artistName || "artist name"}</li>
+        </a>
         <li onClick={testLi}>{props.title}</li>
         <li>{props.year}</li>
         <li>{props.town}</li>
