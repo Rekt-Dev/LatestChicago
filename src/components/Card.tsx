@@ -15,8 +15,6 @@ const startLink = "https://www.artic.edu/iiif/2/";
 const artworkId = "1adf2696-8489-499b-cad2-821d7fde4b33";
 const constructedLink = startLink + artworkId + endLink;
 export function Card(props: any) {
-  // const identifier = "229393";
-
   return (
     <MDBRipple
       className="bg-image hover-overlay shadow-1-strong rounded"
