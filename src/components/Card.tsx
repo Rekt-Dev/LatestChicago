@@ -3,6 +3,11 @@ import "../app.css";
 import { GoToArtist } from "./GoToArtist";
 import { MDBRipple } from "mdb-react-ui-kit";
 
+
+// If you want to see data for just one artwork, you can use the /artworks/{id} detail endpoint. For example, here's Starry Night and the Astronauts by Alma Thomas:
+//https://api.artic.edu/api/v1/artworks/129884
+
+
 export function testLi() {
   console.log(`li has been pressed bish`);
 }
