@@ -1,6 +1,8 @@
 import React from "react";
 import "../app.css";
 import { GoToArtist } from "./GoToArtist";
+import { MDBRipple } from "mdb-react-ui-kit";
+
 export function testLi() {
   console.log(`li has been pressed bish`);
 }
@@ -9,26 +11,33 @@ export function Card(props: any) {
   // const identifier = "229393";
 
   return (
-    <div className="">
-      <a href="OpenCard">
-        <img
-          width="20%"
-          height="20%"
-          alt=" 3 cats"
-          src={mockLink}
-          onMouseOut={() => console.log("out of hover")}
-          onMouseOver={() => console.log("into hover")}
-        />
-      </a>
-      <ul>
-        {}
-        <a href="./GoToArtist">
-          <li onClick={GoToArtist}>{props.artistName || "artist name"}</li>
+    <MDBRipple
+      className="bg-image hover-overlay shadow-1-strong rounded"
+      style={{ maxWidth: "22rem" }}
+      rippleTag="div"
+      rippleColor="light"
+    >
+      <div className="">
+        <a href="OpenCard">
+          <img
+            width="70%"
+            height="20%"
+            alt=" 3 cats"
+            src={mockLink}
+            onMouseOut={() => console.log("out of hover")}
+            onMouseOver={() => console.log("into hover")}
+          />
         </a>
-        <li onClick={testLi}>{props.title}</li>
-        <li>{props.year}</li>
-        <li>{props.town}</li>
-      </ul>
-    </div>
+        <ul>
+          {}
+          <a href="./GoToArtist">
+            <li onClick={GoToArtist}>{props.artistName || "artist name"}</li>
+          </a>
+          <li onClick={testLi}>{props.title}</li>
+          <li>{props.year}</li>
+          <li>{props.town}</li>
+        </ul>
+      </div>
+    </MDBRipple>
   );
 }
