@@ -3,15 +3,16 @@ import "../app.css";
 import { GoToArtist } from "./GoToArtist";
 import { MDBRipple } from "mdb-react-ui-kit";
 
-
 // If you want to see data for just one artwork, you can use the /artworks/{id} detail endpoint. For example, here's Starry Night and the Astronauts by Alma Thomas:
 //https://api.artic.edu/api/v1/artworks/129884
-
 
 export function testLi() {
   console.log(`li has been pressed bish`);
 }
 export const mockLink = `https://www.artic.edu/iiif/2/1adf2696-8489-499b-cad2-821d7fde4b33/full/843,/0/default.jpg`;
+const endLink = "";
+const startLink = "";
+const artworkId = "";
 export function Card(props: any) {
   // const identifier = "229393";
 
@@ -28,7 +29,9 @@ export function Card(props: any) {
             width="70%"
             height="20%"
             alt=" 3 cats"
-            src={"https://www.artic.edu/iiif/2/1adf2696-8489-499b-cad2-821d7fde4b33/full/843,/0/default.jpg"}
+            src={
+              "https://www.artic.edu/iiif/2/1adf2696-8489-499b-cad2-821d7fde4b33/full/843,/0/default.jpg"
+            }
             onMouseOut={() => console.log("out of hover")}
             onMouseOver={() => console.log("into hover")}
           />
