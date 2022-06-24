@@ -1,4 +1,4 @@
-import { json } from "../services/importedData";
+import { json } from "../services/json";
 import { Card } from "../components/Card";
 
 export function Row() {

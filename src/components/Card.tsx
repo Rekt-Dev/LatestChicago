@@ -1,8 +1,6 @@
 import React from "react";
 import "../app.css";
 import { GoToArtist } from "./GoToArtist";
-import { cardDisplayer } from "../services/cardDisplayer";
-import { OpenCard } from "../components/OpenCard";
 
 export function testLi() {
   console.log(`li has been pressed bish`);
@@ -13,13 +11,16 @@ export function Card(props: any) {
 
   return (
     <div className="">
-      <img
-        onClick={cardDisplayer}
-        width="20%"
-        height="20%"
-        alt=" 3 cats"
-        src={mockLink}
-      />
+      <a href="OpenCard">
+        <img
+          width="20%"
+          height="20%"
+          alt=" 3 cats"
+          src={mockLink}
+          onMouseOut={() => console.log("out")}
+          onMouseOver={() => console.log("in")}
+        />
+      </a>
       <ul>
         {}
         <li onClick={GoToArtist}>{props.artistName || "artist name"}</li>

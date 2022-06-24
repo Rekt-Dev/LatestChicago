@@ -6,6 +6,7 @@ import { HoverCard } from "./components/HoverCard";
 
 import { GoToArtist } from "./components/GoToArtist";
 import { OpenCard } from "./components/OpenCard";
+import { Row } from "./components/Row";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOMClient.createRoot(rootElement);
@@ -17,6 +18,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="gotoartist" element={<GoToArtist />} />
         <Route path="opencard" element={<OpenCard />} />
+        <Route path="row" element={<Row />} />
         <Route path="hovercard" element={<HoverCard />} />
       </Routes>
     </BrowserRouter>
