@@ -10,9 +10,9 @@ export function testLi() {
   console.log(`li has been pressed bish`);
 }
 export const mockLink = `https://www.artic.edu/iiif/2/1adf2696-8489-499b-cad2-821d7fde4b33/full/843,/0/default.jpg`;
-const endLink = "full/843,/0/default.jpg";
+const endLink = "/full/843,/0/default.jpg";
 const startLink = "https://www.artic.edu/iiif/2/";
-const artworkId = "1adf2696-8489-499b-cad2-821d7fde4b33/";
+const artworkId = "1adf2696-8489-499b-cad2-821d7fde4b33";
 const constructedLink = startLink + artworkId + endLink;
 console.log(constructedLink);
 export function Card(props: any) {
