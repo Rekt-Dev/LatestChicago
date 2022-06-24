@@ -5,6 +5,8 @@ import App from "./App";
 import { TestComponent } from "./components/TestComponent";
 import { Row } from "./components/Row";
 import { Welcome } from "./components/Welcome";
+import { GoToArtist } from "./components/GoToArtist";
+import { OpenCard } from "./components/OpenCard";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOMClient.createRoot(rootElement);
@@ -13,9 +15,12 @@ root.render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Welcome />} />
+        <Route path="/" element={<App />} />
+        <Route path="gotoartist" element={<GoToArtist />} />
+        <Route path="opencard" element={<OpenCard />} />
+
+
       </Routes>
-      <App />
     </BrowserRouter>
   </StrictMode>
 );

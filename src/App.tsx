@@ -4,10 +4,12 @@ import Header from "./components/Header";
 import { Link } from "react-router-dom";
 import { Card } from "./components/Card";
 import { json } from "./services/json";
+import { GoToArtist } from "./components/GoToArtist";
 export default function App() {
   return (
     <div>
       <Header />
+      
       <div className="centered">
         {json.map((obj) => (
           <div className="">
@@ -19,6 +21,7 @@ export default function App() {
               town={obj.town}
             />
           </div>
+          
         ))}
       </div>
       <Link to="/2_10">pages : 2-10 | </Link>
