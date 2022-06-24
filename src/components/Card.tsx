@@ -14,7 +14,6 @@ const endLink = "/full/843,/0/default.jpg";
 const startLink = "https://www.artic.edu/iiif/2/";
 const artworkId = "1adf2696-8489-499b-cad2-821d7fde4b33";
 const constructedLink = startLink + artworkId + endLink;
-console.log(constructedLink);
 export function Card(props: any) {
   // const identifier = "229393";
 
