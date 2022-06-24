@@ -18,8 +18,6 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="gotoartist" element={<GoToArtist />} />
         <Route path="opencard" element={<OpenCard />} />
-
-
       </Routes>
     </BrowserRouter>
   </StrictMode>
