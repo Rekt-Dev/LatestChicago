@@ -1,7 +1,6 @@
 import React from "react";
 import "../app.css";
 import { GoToArtist } from "./GoToArtist";
-import { Iframe } from "./Iframe";
 export function testLi() {
   console.log(`li has been pressed bish`);
 }
