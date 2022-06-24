@@ -31,9 +31,7 @@ export function Card(props: any) {
             width="70%"
             height="20%"
             alt=" 3 cats"
-            src={
-              "https://www.artic.edu/iiif/2/1adf2696-8489-499b-cad2-821d7fde4b33/full/843,/0/default.jpg"
-            }
+            src={constructedLink}
             onMouseOut={() => console.log("out of hover")}
             onMouseOver={() => console.log("into hover")}
           />
