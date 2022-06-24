@@ -2,6 +2,7 @@ import React from "react";
 import "../app.css";
 import { GoToArtist } from "./GoToArtist";
 import { cardDisplayer } from "../services/cardDisplayer";
+import { OpenCard } from "../components/OpenCard";
 
 export function testLi() {
   console.log(`li has been pressed bish`);
