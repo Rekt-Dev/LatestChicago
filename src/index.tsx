@@ -5,6 +5,8 @@ import App from "./App";
 import { TestComponent } from "./components/TestComponent";
 import { Row } from "./components/Row";
 import { Welcome } from "./components/Welcome";
+import { HoverCard } from "./components/HoverCard";
+
 import { GoToArtist } from "./components/GoToArtist";
 import { OpenCard } from "./components/OpenCard";
 
@@ -18,6 +20,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="gotoartist" element={<GoToArtist />} />
         <Route path="opencard" element={<OpenCard />} />
+        <Route path="hovercard" element={<HoverCard />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
