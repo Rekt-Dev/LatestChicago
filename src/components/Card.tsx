@@ -17,8 +17,8 @@ export function Card(props: any) {
           height="20%"
           alt=" 3 cats"
           src={mockLink}
-          onMouseOut={() => console.log("out")}
-          onMouseOver={() => console.log("in")}
+          onMouseOut={() => console.log("out of hover")}
+          onMouseOver={() => console.log("into hover")}
         />
       </a>
       <ul>
