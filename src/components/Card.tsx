@@ -27,6 +27,10 @@ export function Card(props: any) {
             onMouseOut={() => console.log("out of hover")}
             onMouseOver={() => console.log("into hover")}
           />
+          <div
+            className="mask"
+            style={{ backgroundColor: "rgba(251, 251, 251, 0.2)" }}
+          ></div>
         </a>
         <ul>
           {}
