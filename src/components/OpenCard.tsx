@@ -6,7 +6,7 @@ export function OpenCard() {
     <div className="center">
       <div>
         <div>
-          <img width="1250" height="650" src={url} alt="a beautiful piece" />
+          <img width="1050" height="650" src={url} alt="a beautiful piece" />
         </div>
         <ol>
           <li className="liFont">a piece of data loren ipsumish </li>
