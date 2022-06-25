@@ -12,7 +12,7 @@ export function testLi() {
 
 const endLink = "/full/843,/0/default.jpg";
 const startLink = "https://www.artic.edu/iiif/2/";
-const artworkId = "1adf2696-8489-499b-cad2-821d7fde4b33";
+const artworkId = "fd26fe20-e8fd-d80a-c3e9-c07365b0db61";
 const constructedLink = startLink + artworkId + endLink;
 const retrieveArtworks =
   "https://api.artic.edu/api/v1/artworks?fields=id,title,image_id&limit=100";
